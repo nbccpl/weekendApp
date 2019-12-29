@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>What Weekend Will It Be?</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">	
+			<h1 class="title">What Weekend Will It Be?</h1>
+			<div class="links"> <ul>	
+				<li><a id="library-home" href="http://newbern.cpclib.org/">Library Home</a></li>
+				<li><a id="library-events" href="http://newbern.cpclib.org/nbccpl/events.html">Library Events</a></li>
+			</ul> </div>
+		</div>
+		<div class="main-body">
+			<form class="date-inputs" name="userDateInput">
+				<select id="monthSelect">
+					<option value="Month">Month</option>
+					<option value="January">January</option>
+					<option value="February">February</option>
+					<option value="March">March</option>
+					<option value="April">April</option>
+					<option value="May">May</option>
+					<option value="June">June</option>
+					<option value="July">July</option>
+					<option value="August">August</option>
+					<option value="September">September</option>
+					<option value="October">October</option>
+					<option value="November">November</option>
+					<option value="December">December</option>
+				</select>
+				<select id="daySelect">
+					<option value="Day">Day</option>
+					<option value="1">01</option>
+					<option value="2">02</option>
+					<option value="3">03</option>
+					<option value="4">04</option>
+					<option value="5">05</option>
+					<option value="6">06</option>
+					<option value="7">07</option>
+					<option value="8">08</option>
+					<option value="9">09</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+				</select>
+				<select id="yearSelect">
+					<option value="Year">Year</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+					<option value="2024">2024</option>
+					<option value="2025">2025</option>
+					<option value="2026">2026</option>
+					<option value="2027">2027</option>
+					<option value="2028">2028</option>
+					<option value="2029">2029</option>
+					<option value="2030">2030</option>
+				</select>
+				<button class="enter-button" type="button" onclick="whatWeek()">Enter</button>
+			</form>
+			
+			<p id="result"></p>
+		<div id="footer">
+			<img id="logo" src="Images/ColorLogo_Big%20png.PNG"></img>
+
+			<div id="author">Created by C.Wilson</div>		
+		</div>	
+	</div>	
+</div>
+
+<script type="text/javascript" src="script.js"></script>	
+</body>
+</html>

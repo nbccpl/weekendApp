@@ -1,0 +1,125 @@
+/*************
+* PAGE DEFAULTS
+**************/
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: arial, sans-serif;
+}
+
+*:focus {
+	outline: none;
+}
+
+/*************
+* FLEXBOX CONTAINER
+**************/
+.container {	
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+/*************
+* HEADER
+**************/
+.header {
+	display: flex;
+	width: 100%;
+	height: 7vw;
+	background: #29AAE2;
+	align-items: center;
+	color: #FFFFFF;
+}
+
+.title {
+	width: 50%;
+	padding: 10px;
+	font-family: 'lobster', arial, sans-serif;
+	font-size: 4.5vw;
+}
+
+.links {
+	display: flex;
+	width: 50%;
+}
+
+ul {
+	display: flex;
+	list-style: none;	
+	margin-left: auto;
+}
+
+a {
+	padding: 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 1.3vw;	
+	font-weight: 900;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*************
+* BODY
+**************/
+.main-body{
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: radial-gradient(circle, rgba(0,0,0,.7), rgba(177,177,177,.2)), 
+		url("Images/planner-and-computer.png") no-repeat fixed center;
+	text-align: center;
+	color: #7CCBEE;
+	font-size: 2.5vw;
+	font-weight: 800;
+}
+
+form {
+	padding-top: 20vh;
+}
+
+select, button {
+	font-size: 1.5vw;
+	border-radius: 5px;
+}
+
+button {
+	padding: 2px, 0px;
+	background-color:  #29AAE2;
+	border-color: #089BDA;
+	color: #FFFFFF;
+}
+
+button:hover {
+	background-color: #089BDA;
+	border-color: #29AAE2;
+	cursor: pointer;
+}
+
+/*************
+* FOOTER
+**************/
+#footer {
+	display: inline-flex;
+	margin-top: auto;
+}
+
+#logo {
+	width: 8%;
+	padding: 5px;
+	margin-right: auto;
+}
+
+#author {
+	font-size: .8vw;
+	color: #FFFFFF;
+	font-weight: normal;
+	padding: 5px;
+	margin-top: auto;
+	margin-left: auto;
+}
