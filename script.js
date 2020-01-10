@@ -1,6 +1,6 @@
 'use strict'
 // Establish A week
-const aWeekDate = new Date("Dec 31, 2018 00:00:00");
+const aWeekDate = new Date("Dec 30, 2018 00:00:00");
 const aWeekCounter = aWeekDate.getTime();
 
 // Find number of milliseconds in a day
